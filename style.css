@@ -1,3 +1,12 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face{
+    font-family:"antigua";
+    src: url("Pacifico-Regular.ttf");
+}
 body{
    background: url("imagenes/fotos/wallhaven-496446.jpg");
     margin-left : auto;
@@ -30,17 +39,35 @@ h2
     padding: 10px;
     border: solid;
     text-align: center;
-    background-color: white;
-    background-image: url(imagenes/fotos/escuelas.jpg);  
+    background-color: rgba(255,2,211,0.3) ;
     display: inline-block;
     font-weight: bold;
     /*font-size: larger;*/
     text-decoration: black;
 }
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.marco:hover{
+    color: blue;
+    background-color: darkmagenta;
+}
+a:hover{
+    color: white;
+}
 ol{
     text-decoration-color: black;
     text-align: center;
    
+}
+.f_portada{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1em;
+    
 }
 .marco2{
     padding: 10px;
@@ -54,7 +81,22 @@ ol{
    
 .texto{
     text-align: justify;
-    clear:left;
+    clear:left;       
+}
+.titulo{
+   font-family: "antigua";
+    font-size: 1.5em;
+    color: darkorchid;
+    text-shadow: 2px 2px 0.5px black;
+}
+article{
+    font-family: "antigua";
+    text-align: justify;
+}
+.caminero{
+    padding: 10px;
+    display: inline-block;
+    position:relative;
+    text-align: center;
    
-       
 }
