@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face{
+    font-family:"antigua";
+    src: url("Pacifico-Regular.ttf");
+}
+body{
+   background: url("imagenes/fotos/wallhaven-496446.jpg");
+    margin-left : auto;
+    margin-right : auto;
+    width: 90%;
+    max-width: 1200px;
+}
+.container{
+    background-color: rgba(255,255,255,0.5);
+    padding-right: 0em;
+    padding-left: 2em;
+    
+}
+.marco{
+    padding: 10px;
+    border: solid;
+    text-align: center;
+    background-color: rgba(255,2,211,0.3) ;
+    display: inline-block;
+    font-weight: bold;
+    /*font-size: larger;*/
+    text-decoration: black;
+}
+.tienda{
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+a:hover{
+    opacity: 0.5;
+}
