@@ -23,12 +23,28 @@ body{
 h1{
     color:blueviolet;
     text-align: center;
-    text-shadow: 2px 2px 2px 
+    text-shadow: 2px 2px 2px; 
 }
-.escuelas{
-    
-    max-width:  width: 49%;
+
+.zonas{
+    padding: 10px;
+    border: none;
+    text-align: center;
+    background-color: rgba (250,250,250,0.1);
+    max-width: 95%;
     display: inline-block;
-    vertical-align: middle;
-    padding: 1em;
+    box-sizing: border-box;
+}
+.mapa{
+    width: 49%;
+    display: inline-block;
+    float: left;
+    vertical-align: super;
+}
+table{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    border: 20
 }

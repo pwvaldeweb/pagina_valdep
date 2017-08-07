@@ -28,21 +28,39 @@ body{
     display: inline-block;
     font-weight: bold;
     /*font-size: larger;*/
-    text-decoration: black;
+    /*text-decoration: black;*/
 }
-.tienda{
-    padding: 10px;
-    text-align: center;
-    margin: 0 auto;
-    display: inline-block;
+h2{
+    border: 4px ridge purple;
+    background-color: darkorchid;
+    color: white;
+}
+article{
+    padding: 12px;
+    font-size: larger;
 }
 img{
     height: 200px;
     width: 250px;
+   
 }
-.mostrar{
-    display: none;
+.div-imagen {
+  display:inline-block;
+  position:relative;
 }
-a:hover{
-    opacity: 0.5;
+
+.div-imagen > div {
+  position:absolute;
+  top:60px;
+    left: 0px;
+  text-align: center;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+    font-size: 2.5em;
+}
+
+.desvanecer:hover {
+  opacity: 0.10;
+ 
 }
