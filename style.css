@@ -63,8 +63,9 @@ ol{
    
 }
 .f_portada{
-    width: 30%;
+    width: 200px;
     display: inline-block;
+    text-align: center;
     vertical-align: middle;
     padding: 1em;
     
@@ -74,7 +75,7 @@ ol{
     border: none;
     text-align: center;
     background-color: rgba (250,250,250,0.1);
-    max-width: 95%;
+    width: 1000px;
     display: inline-block;
     
 }
@@ -97,6 +98,11 @@ article{
     padding: 10px;
     display: inline-block;
     position:relative;
-    text-align: center;
-   
+    text-align: center; 
 }
+/*@media (min-width:1150px)
+{
+    .marco2{
+        column-count: 2;
+    }
+}*/
